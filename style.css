@@ -1,5 +1,4 @@
 .container{
-    display: block
     width: 950px;
     background-color: silver;
     margin: 0px auto;
@@ -9,7 +8,6 @@
     height: 150px;
     background-color: green;
     margin: 0px 20px 20px 20px;
-    display: block;
 }
 .side-nav {
     height: 300px;
@@ -17,7 +15,8 @@
     background-color: blue;
     display: inline-block;
     vertical-align: top;
-    margin: 0px 20px;
+    margin: 0px 10px
+
 }
 .main {
     height: 400px;
@@ -25,8 +24,7 @@
     background-color: red;
     display: inline-block;
     vertical-align: top;
-    padding: 10px;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 20px 0px
 }
 .sub-content {
     height: 200px;
@@ -39,5 +37,5 @@
     height: 120px;
     width: 660px;
     background-color: purple;
-    margin: 20px 10px;
+    margin: 20px 10px 20px; 
 }
